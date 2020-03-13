@@ -69,6 +69,7 @@
             this.TbClas = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
+            this.TestBox = new System.Windows.Forms.RichTextBox();
             this.GrpAtt.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -482,12 +483,21 @@
             this.label18.TabIndex = 35;
             this.label18.Text = "Klasa";
             // 
+            // TestBox
+            // 
+            this.TestBox.Location = new System.Drawing.Point(27, 18);
+            this.TestBox.Name = "TestBox";
+            this.TestBox.Size = new System.Drawing.Size(802, 593);
+            this.TestBox.TabIndex = 5;
+            this.TestBox.Text = "";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.ClientSize = new System.Drawing.Size(1680, 1060);
+            this.Controls.Add(this.TestBox);
             this.Controls.Add(this.BtnNext);
             this.Controls.Add(this.BtnPrev);
             this.Controls.Add(this.GrpAtt);
@@ -546,6 +556,7 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox TbClas;
         private System.Windows.Forms.TextBox TbRace;
+        private System.Windows.Forms.RichTextBox TestBox;
     }
 }
 

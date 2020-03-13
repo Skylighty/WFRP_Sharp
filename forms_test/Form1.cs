@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace forms_test
 { 
@@ -28,7 +29,7 @@ namespace forms_test
         private void BtnGenClick(object sender, EventArgs e)
         {
             try
-            { 
+            {
                 Character NewTemp = new Character();
                 Characters.Add(NewTemp);
                 ActiveIndex++;
@@ -38,10 +39,8 @@ namespace forms_test
             }
             catch (Exception)
             {
-                MessageBox.Show($"Wystąpił błąd, przepraszam za usterkę! ActiveIndex {ActiveIndex}", "Ooops...", MessageBoxButtons.OK,
-                    MessageBoxIcon.Error);
+                throw;
             }
-
 
         } //GENEROWANIE - DONE
         
@@ -94,6 +93,7 @@ namespace forms_test
             TbRace.Text = Characters[idx].Race;
             TbClas.Text = Characters[idx].Clas;
         } //FUNKCJA WYRZUCAJACA POSTAC DO TB PROGRAMU - DONE
+
 
     }
 }
