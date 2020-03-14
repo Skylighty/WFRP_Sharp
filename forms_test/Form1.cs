@@ -72,6 +72,7 @@ namespace forms_test
                 MessageBox.Show("To pierwsza postać na liście! Stwórz nową lub idz dalej!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         } //PRZEWIJANIE DO TYLU - DONE
+
         private void ShowCharacter(int idx)
         {
             TbWW.Text = Characters[idx].WW.ToString();

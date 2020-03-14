@@ -4,6 +4,24 @@
         <name>Akolita</name>
         <human-op>01</human-op>
         <human-close>02</human-close>
+		<skills>
+			<skill>czytanie i pisanie</skill>
+			<skill>nauka (astronomia albo historia)</skill>
+			<skill>nauka (teologia)</skill>
+			<skill>przekonywanie</skill>
+			<skill>spostrzegawczość</skill>
+			<skill>znajomość języka (klasyczny)</skill>
+			<skill>znajomość języka (staroświatowy</skill>
+		</skills>
+		<abilities>
+			<ability>bardzo silny albo szybki refleks</ability>
+			<ability>charyzmatyczny albo urodzony wojownik</ability>
+			<ability>przemawianie</ability>
+		</abilities>
+		<items>
+			<item>szaty kapłańskie</item>
+			<item>symbol boga</item>
+		</items>
     </class>
     <class>
         <name>Banita</name>
@@ -15,21 +33,101 @@
         <dwarf-close>03</dwarf-close>
         <halfling-op>01</halfling-op>
         <halfling-close>03</halfling-close>
+		<skills>
+			<skill>opieka nad zwierzętami albo wiedza (Imperium)</skill>
+			<skill>plotkowanie albo sekretne znaki (złodziei)</skill>
+			<skill>powożenie albo jeździectwo</skill>
+			<skill>skradanie się</skill>
+			<skill>spostrzegawczość</skill>
+			<skill>ukrywanie się</skill>
+			<skill>unik</skill>
+			<skill>wspinaczka</skill>
+			<skill>zastawianie pułapek albo pływanie
+		</skills>
+		<abilities>
+			<ability>strzał mierzony albo ogłuszanie</ability>
+			<ability>wędrowiec albo łotrzyk</ability>
+		</abilities>
+		<items>
+			<item>łuk i 10 strzał</item>
+			<item>lekki pacerz (skórzany kaftan)</item>
+			<item>tarcza</item>
+		</items>
     </class>
     <class>
         <name>Berserker z Norski</name>
 		<human-op>05</human-op>
         <human-close>05</human-close>
+		<skills>
+			<skill>kuglarstwo (gawędziarstwo)</skill>
+			<skill>mocna głowa</skill>
+			<skill>pływanie</skill>
+			<skill>wiedza (Norska)</skill>
+			<skill>zastraszanie</skill>
+			<skill>znajomość języka (norski)</skill>
+		</skills>
+		<abilities>
+			<ability>broń specjalna (dwuręczna)</ability>
+			<ability>groźny</ability>
+			<ability>szał bojowy</ability>
+			<ability>szybkie wyciągnięcie</ability>
+		</abilities>
+		<items>
+			<item>broń dwuręczna albo tarcza</item>
+			<item>lekki pancerz (skórzany kaftan)</item>
+			<item>butelka gorzałki</item>
+		</items>
 	</class>
     <class>
         <name>Chłop</name>
 		<human-op>06</human-op>
         <human-close>07</human-close>
+		<skills>
+			<skill>hazard albo kuglarstwo (taniec albo śpiew)</skill>
+			<skill>opieka nad zwierzętami albo przekonywanie</skill>
+			<skill>oswajanie albo rzemiosło (gotowanie)</skill>
+			<skill>powożenie albo rzemiosło (wyrób łuków)</skill>
+			<skill>sztuka przetrwania albo rzemiosło(uprawa ziemi)</skill>
+			<skill>tresura albo pływanie</skill>
+			<skill>ukrywanie się</skill>
+			<skill>wioślarstwo albo zastawianie pułapek</skill>
+			<skill>wspinaczka albo skradanie się</skill>
+		</skills>
+		<abilities>
+			<ability>chodu! albo broń specjalna (proca)</ability>
+			<ability>tawrdziel albo wędrowiec</ability>
+		</abilities>
+		<items>
+			<item>proca albo kij</item>
+			<item>skórzany bukłak</item>
+		</items>
     </class>
     <class>
         <name>Ciura Obozowa</name>
 		<human-op>08</human-op>
         <human-close>09</human-close>
+		<skills>
+			<skill>opieka nad zwierzętami albo powożenie</skill>
+			<skill>plotkowanie</skill>
+			<skill>przekonywanie albo wycena</skill>
+			<skill>przeszukiwanie</skill>
+			<skill>rzemiosło (1 z gotowanie,handel,kartografia,kowalstwo,krawiectwo,płatnerstwo,rusznikarstwo,wyrób łuków,zielarstwo)</skill>
+			<skill>spostrzegawczość</skill>
+			<skill>targowanie</skill>
+			<skill>znajomość języka (bretoński, kislevski albo tileański)</skill>
+			<skill>zwinne palce</skill>
+		</skills>
+		<abilities>
+			<ability>chodu!</ability>
+			<ability>odporność na choroby albo obieżyświat</ability>
+			<ability>twardziel albo charyzmatyczny</ability>
+			<ability>żyłka handlowa albo bijatyka</ability>
+		</abilities>
+		<items>
+			<item>talizman szczęscia albo narzędzia (rzemieślnika)</item>
+			<item>sakiewka</item>
+			<item>namiot</item>
+		</items>
     </class>
     <class>
         <name>Cyrkowiec</name>
@@ -41,6 +139,23 @@
         <dwarf-close>06</dwarf-close>
         <halfling-op>06</halfling-op>
         <halfling-close>08</halfling-close>
+		<skills>
+			<skill>kuglarstwo (dwolone dwa)</skill>
+			<skill>opieka nad zwierzętami albo pływanie</skill>
+			<skill>przekonywanie</skill>
+			<skill>spostrzegawczość</skill>
+			<skill>wiedza (Imperium)</skill>
+			<skill>wycena albo plotkowanie</skill>
+			<skill>znajomość języka (staroświatowy) oraz jedna umiejętność do wyboru spośród: brzuchomówstwo,gadanina,hipnoza,jeździectwo,oswajanie,tresura,wspinaczka,zwinne palce</skill>
+		</skills>
+		<abilities>
+			<ability>dwie zdolności do wyboru spośród: bardzo silny, broń specjalna (rzucana), naśladowca, przemawianie, strzał mierzony, szybki refleks, szybkie wyciągnięcie, woltyżerka, zapasy</ability>
+		</abilities>
+		<items>
+			<item>lekki pancerz (skórzany kaftan)</item>
+			<item>jeden przedmiot do wyboru spośród: 3 noże do rzucania, 2 topory do rzucania, instrument muzyczny (dowolny), narzędzia (kuglarza)</item>
+			<item>jeden przedmiot do wyboru spośród: kostium cyrkowca (dowolny) albo ubranie dobrej jakości)</item>
+		</items>
     </class>
     <class>
         <name>Cyrulik</name>
@@ -48,21 +163,96 @@
         <human-close>12</human-close>
         <halfling-op>09</halfling-op>
         <halfling-close>09</halfling-close>
+		<skills>
+			<skill>czytanie i pisanie</skill>
+			<skill>leczenie</skill>
+			<skill>powożenie albo pływanie</skill>
+			<skill>przekonywanie</skill>
+			<skill>rzemiosło (aptekarstwo)</skill>
+			<skill>spostrzegawczość</skill>
+			<skill>targowanie</skill>
+			<skill>znajomość bretoński (bretoński,staroświatowy albo tileański)</skill>
+		</skills>
+		<abilities>
+			<ability>charyzmatyczny albo niezwykle odporny</ability>
+			<ability>chirurgia</ability>
+			<ability>odporność na choroby albo błyskotliwość</ability>
+		</abilities>
+		<items>
+			<item>narzędzia (cyrulika)</item>
+		</items>
     </class>
     <class>
         <name>Fanatyk</name>
 		<human-op>13</human-op>
         <human-close>14</human-close>
+		<skills>
+			<skill>czytanie i pisanie</skill>
+			<skill>nauka (teologia)</skill>
+			<skill>przekonywanie</skill>
+			<skill>wiedza (Imperium)</skill>
+			<skill>zastraszanie</skill>
+		</skills>
+		<abilities>
+			<ability>broń specjalna (korbacze)</ability>
+			<ability>opanowanie albo bardzo silny</ability>
+			<ability>przemawianie</ability>
+			<ability>twardziel albo charyzmatyczny</ability>
+		</abilities>
+		<items>
+			<item>korbacz albo morgensztern</item>
+			<item>lekki pancerz (skórzana kurta)</item>
+			<item>butelka spirytusu albo gorzałki dobrej jakości </item>
+		</items>
     </class>
     <class>
         <name>Flisak</name>
 		<human-op>15</human-op>
         <human-close>16</human-close>
+		<skills>
+			<skill>mocna głowa albo plotkowanie</skill>
+			<skill>nawigacja</skill>
+			<skill>pływanie</skill>
+			<skill>sekretny język (łowców) albo znajomość języka (kislevski)</skill>
+			<skill>spostrzegawczość</skill>
+			<skill>sztuka przetrwania</skill>
+			<skill>wiedza (Imperium albo Kislev)</skill>
+			<skill>wioślarstwo</skill>
+			<skill>żeglarstwo</skill>
+		</skills>
+		<abilities>
+			<ability>obieżyświat</ability>
+			<ability>wyczucie kierunku</ability>
+		</abilities>
+		<items>
+			<item>lekki pancerz (skórzana kurta)</item>
+			<item>łódź wiosłowa</item>
+		</items>
     </class>
     <class>
         <name>Giermek</name>
 		<human-op>17</human-op>
         <human-close>18</human-close>
+		<skills>
+			<skill>jeździectwo</skill>
+			<skill>nauka (genealogia/herladyka) albo wiedza (Bretonia)</skill>
+			<skill>opieka nad zwierzętami</skill>
+			<skill>przekonywanie albo plotkowanie</skill>
+			<skill>tresura</skill>
+			<skill>unik</skill>
+			<skill>znajomość języka (bretoński albo staroświatowy)</skill>
+		</skills>
+		<abilities>
+			<ability>broń specjalna (kawaleryjska)</ability>
+			<ability>etykieta</ability>
+			<ability>silny cios</ability>
+		</abilities>
+		<items>
+			<item>lanca</item>
+			<item>średni pancerz (kaftan kolczy, czepiec kolczy i skórzana kurta)</item>
+			<item>tarcza</item>
+			<item>koń z siodłem i uprzężą</item>
+		</items>
     </class>
     <class>
         <name>Gladiator</name>
@@ -70,11 +260,51 @@
         <human-close>20</human-close>
         <dwarf-op>07</dwarf-op>
         <dwarf-close>11</dwarf-close>
+		<skills>
+			<skill>unik</skill>
+			<skill>zastraszanie</skill>
+		</skills>
+		<abilities>
+			<ability>bardzo silny albo odporność psychiczna</ability>
+			<ability>broń specjalna (dwuręczna)</ability>
+			<ability>broń specjalna (korbacze)</ability>
+			<ability>broń specjalna (parująca)</ability>
+			<ability>rozbrajanie albo zapasy</ability>
+			<ability>silny cios</ability>
+			<ability>szybkie wyciągnięcie albo morderczy atak</ability>
+		</abilities>
+		<items>
+			<item>korbacz albo broń dwuręczna</item>
+			<item>kastet</item>
+			<item>średnie pancerz (kaftan kolczy i skórzana kurta)</item>
+			<item>tarcza albo puklerz</item>
+		</items>
 	</class>
     <class>
         <name>Goniec</name>
         <dwarf-op>12</dwarf-op>
         <dwarf-close>16</dwarf-close>
+		<skills>
+			<skill>nawigacja</skill>
+			<skill>pływanie</skill>
+			<skill>sekretne znaki (zwiadowców)</skill>
+			<skill>spostrzegawczość</skill>
+			<skill>sztuka przetrwania</skill>
+			<skill>unik</skill>
+		</skills>
+		<abilities>
+			<ability>bardzo szybki albo szósty zmysł</ability>
+			<ability>bardzo wytrzymały albo bardzo silny</ability>
+			<ability>błyskawiczne przeładowanie</ability>
+			<ability>chodu!</ability>
+			<ability>wyczucie kierunku</ability>
+		</abilities>
+		<items>
+			<item>kusza i 10 bełtów</item>
+			<item>lekki pancerz (skórzana kurta)</item>
+			<item>mikstura lecznicza</item>
+			<item>talizmn szczęścia</item>
+		</items>
     </class>
     <class>
         <name>Górnik</name>
@@ -82,11 +312,51 @@
         <human-close>22</human-close>
         <dwarf-op>17</dwarf-op>
         <dwarf-close>22</dwarf-close>
+		<skills>
+			<skill>nawgiacja</skill>
+			<skill>opieka nad zwierzętami</skill>
+			<skill>rzemiosło (górnictwo albo górnictwo odkrywkowe)</skill>
+			<skill>spostrzegawczość</skill>
+			<skill>ukrywanie się albo powożenie</skill>
+			<skill>wspinaczka</skill>
+			<skill>wycena albo sztuka przetrwania</skill>
+		</skills>
+		<abilities>
+			<ability>bardzo wytrzymały albo urodzony wojownik</ability>
+			<ability>broń specjalna (dwuręczna)</ability>
+			<ability>wyczucie kierunku</ability>
+		</abilities>
+		<items>
+			<item>broń dwuręczna (dwuręczny kilof)</item>
+			<item>lekki pancerz (skórzana kurta)</item>
+			<item>kilof</item>
+			<item>łopata</item>
+			<item>latarnia sztormowa</item>
+			<item>olej do latarni</item>
+		</items>
     </class>
     <class>
         <name>Guślarz</name>
 		<human-op>23</human-op>
         <human-close>23</human-close>
+		<skills>
+			<skill>leczenie albo hipnoza</skill>
+			<skill>opieka nad zwierzętami albo targowanie</skill>
+			<skill>oswajanie albo rzemiosło (aptekarstwo)</skill>
+			<skill>przekonywanie albo zastraszanie</skill>
+			<skill>przeszukiwanie</skill>
+			<skill>splatanie magii</skill>
+			<skill>spostrzegawczość</skill>
+			<skill>wykrywanie magii</skill>
+		</skills>
+		<abilities>
+			<ability>gusła</ability>
+			<ability>magia prosta (gusła)</ability>
+		</abilities>
+		<items>
+			<item>mikstura lecznicza</item>
+			<item>płaszcz z kapturem</item>
+		</items>
     </class>
     <class>
         <name>Hiena cmentarna</name>
@@ -96,6 +366,29 @@
         <dwarf-close>25</dwarf-close>
         <halfling-op>10</halfling-op>
         <halfling-close>14</halfling-close>
+		<skills>
+			<skill>czytanie i pisanie</skill>
+			<skill>otwieranie zamków albo skradanie się</skill>
+			<skill>przeszukiwanie</skill>
+			<skill>spostrzegawczość</skill>
+			<skill>ukrywanie się albo sztuka przetrwania</skill>
+			<skill>wiedza (Imperium) albo sekretne znaki (złodziei)</skill>
+			<skill>wspinaczka</skill>
+			<skill>wycena</skill>
+			<skill>znajomość języka (eltharin, khazalid albo klasyczny)</skill>
+		</skills>
+		<abilities>
+			<ability>szczęście albo szósty zmysł</ability>
+			<ability>wykrywanie pułapek albo grotołaz</ability>
+		</abilities>
+		<items>
+			<item>lekki pancerz (skórzana kurta)</item>
+			<item>łom</item>
+			<item>latarnia</item>
+			<item>olej do latarni</item>
+			<item>10 metrów liny</item>
+			<item>2 worki</item>
+		</items>
     </class>
     <class>
         <name>Kanciarz</name>
@@ -105,16 +398,73 @@
         <elf-close>16</elf-close>
         <halfling-op>15</halfling-op>
         <halfling-close>20</halfling-close>
+		<skills>
+			<skill>gadanina</skill>
+			<skill>hazard albo sekretne znaki (złodziei)</skill>
+			<skill>kuglarstwo (aktorstwo albo gawędziarstwo)</skill>
+			<skill>plotkowanie albo targowanie</skill>
+			<skill>przekonywanie</skill>
+			<skill>przeszukiwanie albo sekretny język (złodziejski)</skill>
+			<skill>spostrzegawczość</skill>
+			<skill>wycena</skill>
+			<skill>znajomość języka (staroświatowy)</skill>
+		</skills>
+		<abilities>
+			<ability>chodu! albo łotrzyk</ability>
+			<ability>przemawianie</ability>
+			<ability>szczęście albo szósty zmysł</ability>
+		</abilities>
+		<items>
+			<item>ubranie najlepszej jakości albo zestaw kości do gry, albo talia kart</item>
+			<item>1k10zk</item>
+		</items>
     </class>
     <class>
         <name>Kozak kislevski</name>
 		<human-op>28</human-op>
         <human-close>28</human-close>
+		<skills>
+			<skill>hazard albo targowanie</skill>
+			<skill>mocna głowa</skill>
+			<skill>przeszukiwanie</skill>
+			<skill>sztuka przetrwania</skill>
+			<skill>unik</skill>
+			<skill>wiedza (Kislev)</skill>
+			<skill>znajomość języka (kislevski)</skill>
+		</skills>
+		<abilities>
+			<ability>broń specjalna (dwuręczna)</ability>
+			<ability>morderczy atak</ability>
+		</abilities>
+		<items>
+			<item>łuk i 10 strzał</item>
+			<item>broń dwuręczna (dwuręczny topór)</item>
+			<item>średni pancerz (kolczuga, skórzana kurta i skórzane nogawice)</item>
+		</items>
     </class>
     <class>
         <name>Leśnik</name>
 		<human-op>29</human-op>
         <human-close>30</human-close>
+		<skills>
+			<skill>sekretne znaki (łowców)</skill>
+			<skill>sekretny język (łowców)</skill>
+			<skill>skradanie się</skill>
+			<skill>spostrzegawczość</skill>
+			<skill>tropienie albo zastawianie pułapek</skill>
+			<skill>ukrywanie się</skill>
+			<skill>wspinaczka</skill>
+		</skills>
+		<abilities>
+			<ability>bardzo szybki albo niezwykle odporny</ability>
+			<ability>broń specjalna (dwuręczna)</ability>
+			<ability>wędrowiec</ability>
+		</abilities>
+		<items>
+			<item>broń dwuręczna (dwuręczny topór)</item>
+			<item>lekki pancerz (skórzana kurta)</item>
+			<item>odtrutki</item>
+		</items>
     </class>
     <class>
         <name>Łowca</name>
@@ -126,6 +476,26 @@
         <dwarf-close>29</dwarf-close>
         <halfling-op>21</halfling-op>
         <halfling-close>25</halfling-close>
+		<skills>
+			<skill>przeszukiwanie albo pływanie</skill>
+			<skill>sekretne znaki (łowców)</skill>
+			<skill>skradanie się albo zastawianie pułapek</skill>
+			<skill>spostrzegawczość</skill>
+			<skill>sztuka przetrwania</skill>
+			<skill>tropienie</skill>
+			<skill>ukrywanie się</skill>
+		</skills>
+		<abilities>
+			<ability>błyskawiczne przeładowanie</ability>
+			<ability>strzelec wyborowy albo wędrowiec</ability>
+			<ability>szybki refleks albo niezwykle odporny</ability>
+			<ability>twardziel albo broń specjalna (długi łuk)</ability>
+		</abilities>
+		<items>
+			<item>długi łuk i 10 strzał</item>
+			<item>2 potrzaski albo wnyki na zwierzęta</item>
+			<item>odtrutki</item>
+		</items>
     </class>
     <class>
         <name>Łowca nagród</name>
@@ -133,6 +503,28 @@
         <human-close>34</human-close>
         <halfling-op>26</halfling-op>
         <halfling-close>27</halfling-close>
+		<skills>
+			<skill>przeszukiwanie</skill>
+			<skill>skradanie się</skill>
+			<skill>spostrzegawczość</skill>
+			<skill>sztuka przetrwania</skill>
+			<skill>śledzenie</skill>
+			<skill>tropienie</skill>
+			<skill>zastraszanie</skill>
+		</skills>
+		<abilities>
+			<ability>broń specjalna (unieruchamiająca)</ability>
+			<ability>strzał mierzony albo silny cios</ability>
+			<ability>strzelec wyborowy albo ogłuszanie</ability>
+			<ability>wędrowiec</ability>
+		</abilities>
+		<items>
+			<item>kusza i 10 bełtów</item>
+			<item>sieć</item>
+			<item>lekki pancerz (skórzany kaftan i skórzany hełm)</item>
+			<item>kajdany</item>
+			<item>10 metrów liny</item>
+		</items>
     </class>
     <class>
         <name>Mieszacznin</name>
@@ -142,6 +534,26 @@
         <dwarf-close>33</dwarf-close>
         <halfling-op>28</halfling-op>
         <halfling-close>29</halfling-close>
+		<skills>
+			<skill>plotkowanie albo czytanie i pisanie</skill>
+			<skill>powożenie</skill>
+			<skill>przeszukiwanie</skill>
+			<skill>spostrzegawczość</skill>
+			<skill>targowanie</skill>
+			<skill>wiedza (Imperium) albo mocna głowa</skill>
+			<skill>wycena</skill>
+			<skill>znajomość języka (bretoński, kislevski albo tileański)</skill>
+			<skill>znajomość języka (staroświatowy)</skill>
+		</skills>
+		<abilities>
+			<ability>błyskotliwość albo charyzmatyczny</ability>
+			<ability>żyłka handlowa</ability>
+		</abilities>
+		<items>
+			<item>ubranie dobrej jakości</item>
+			<item>liczydło</item>
+			<item>latarnia</item>
+		</items>
     </class>
     <class>
         <name>Mytnik</name>
@@ -151,6 +563,21 @@
         <dwarf-close>36</dwarf-close>
         <halfling-op>30</halfling-op>
         <halfling-close>31</halfling-close>
+		<skills>
+			<skill>czytanie i pisanie</skill>
+			<skill>plotkowanie albo targowanie</skill>
+			<skill>przeszukiwanie</skill>
+			<skill>spostrzegawczość</skill>
+			<skill>unik</skill>
+			<skill>wycena</skill>
+			<skill>znajomość języka (bretoński, kislevski albo tileański)</skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Najemnik</name>
@@ -162,6 +589,15 @@
         <dwarf-close>42</dwarf-close>
         <halfling-op>32</halfling-op>
         <halfling-close>35</halfling-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Ochotnik</name>
@@ -171,6 +607,15 @@
         <dwarf-close>46</dwarf-close>
         <halfling-op>36</halfling-op>
         <halfling-close>40</halfling-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Ochroniarz</name>
@@ -178,11 +623,29 @@
         <human-close>44</human-close>
         <dwarf-op>47</dwarf-op>
         <dwarf-close>50</dwarf-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Oprych</name>
 		<human-op>45</human-op>
         <human-close>46</human-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Paź</name>
@@ -192,6 +655,15 @@
         <elf-close>31</elf-close>
         <halfling-op>41</halfling-op>
         <halfling-close>42</halfling-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Podżegacz</name>
@@ -201,6 +673,15 @@
         <dwarf-close>52</dwarf-close>
         <halfling-op>43</halfling-op>
         <halfling-close>45</halfling-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Porywacz zwłok</name>
@@ -208,6 +689,15 @@
         <human-close>52</human-close>
         <halfling-op>46</halfling-op>
         <halfling-close>48</halfling-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Posłaniec</name>
@@ -217,6 +707,15 @@
         <elf-close>37</elf-close>
         <halfling-op>49</halfling-op>
         <halfling-close>53</halfling-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Przemytnik</name>
@@ -226,6 +725,15 @@
         <dwarf-close>55</dwarf-close>
         <halfling-op>54</halfling-op>
         <halfling-close>56</halfling-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Przepatrywacz</name>
@@ -233,6 +741,15 @@
         <human-close>58</human-close>
         <elf-op>38</elf-op>
         <elf-close>43</elf-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Przewoźnik</name>
@@ -240,6 +757,15 @@
         <human-close>59</human-close>
         <halfling-op>57</halfling-op>
         <halfling-close>57</halfling-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Rybak</name>
@@ -247,11 +773,29 @@
         <human-close>61</human-close>
         <halfling-op>58</halfling-op>
         <halfling-close>58</halfling-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Rzecznik rodu</name>
         <elf-op>44</elf-op>
         <elf-close>50</elf-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Rzemieślnik</name>
@@ -263,6 +807,15 @@
         <dwarf-close>59</dwarf-close>
         <halfling-op>59</halfling-op>
         <halfling-close>63</halfling-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Rzezimieszek</name>
@@ -270,6 +823,15 @@
         <human-close>65</human-close>
         <dwarf-op>60</dwarf-op>
         <dwarf-close>63</dwarf-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Skryba</name>
@@ -279,6 +841,15 @@
         <elf-close>63</elf-close>
         <dwarf-op>64</dwarf-op>
         <dwarf-close>65</dwarf-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Sługa</name>
@@ -288,6 +859,15 @@
         <dwarf-close>67</dwarf-close>
         <halfling-op>64</halfling-op>
         <halfling-close>68</halfling-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Strażnik</name>
@@ -297,6 +877,15 @@
         <dwarf-close>69</dwarf-close>
         <halfling-op>69</halfling-op>
         <halfling-close>72</halfling-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Strażnik dróg</name>
@@ -304,11 +893,29 @@
         <human-close>73</human-close>
         <halfling-op>73</halfling-op>
         <halfling-close>74</halfling-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Strażnik pól</name>
         <halfling-op>75</halfling-op>
         <halfling-close>78</halfling-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Strażnik więzienny</name>
@@ -316,6 +923,15 @@
         <human-close>74</human-close>
         <dwarf-op>70</dwarf-op>
         <dwarf-close>73</dwarf-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Szczurołap</name>
@@ -325,11 +941,29 @@
         <dwarf-close>77</dwarf-close>
         <halfling-op>79</halfling-op>
         <halfling-close>82</halfling-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Szermierz estalijski</name>
 		<human-op>77</human-op>
         <human-close>77</human-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Szlachcic</name>
@@ -337,6 +971,15 @@
         <human-close>79</human-close>
         <dwarf-op>78</dwarf-op>
         <dwarf-close>79</dwarf-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Śmieciarz</name>
@@ -344,11 +987,29 @@
         <human-close>81</human-close>
         <halfling-op>83</halfling-op>
         <halfling-close>83</halfling-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Tarczownik</name>
         <dwarf-op>80</dwarf-op>
         <dwarf-close>83</dwarf-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Uczeń czarodzieja</name>
@@ -356,6 +1017,15 @@
         <human-close>83</human-close>
         <elf-op>64</elf-op>
         <elf-close>70</elf-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Węglarz</name>
@@ -363,6 +1033,15 @@
         <human-close>85</human-close>
         <halfling-op>84</halfling-op>
         <halfling-close>86</halfling-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Włóczykij</name>
@@ -372,11 +1051,29 @@
         <elf-close>77</elf-close>
         <halfling-op>87</halfling-op>
         <halfling-close>90</halfling-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Wojownik klanowy</name>
         <elf-op>78</elf-op>
         <elf-close>84</elf-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Woźnica</name>
@@ -384,16 +1081,43 @@
         <human-close>89</human-close>
         <dwarf-op>84</dwarf-op>
         <dwarf-close>85</dwarf-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Zabójca trolli</name>
         <dwarf-op>86</dwarf-op>
         <dwarf-close>89</dwarf-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Zarządca</name>
 		<human-op>90</human-op>
         <human-close>90</human-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Złodziej</name>
@@ -405,6 +1129,15 @@
         <dwarf-close>92</dwarf-close>
         <halfling-op>91</halfling-op>
         <halfling-close>96</halfling-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Żak</name>
@@ -416,6 +1149,15 @@
         <dwarf-close>94</dwarf-close>
         <halfling-op>97</halfling-op>
         <halfling-close>98</halfling-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Żeglarz</name>
@@ -425,6 +1167,15 @@
         <elf-close>100</elf-close>
         <dwarf-op>95</dwarf-op>
         <dwarf-close>95</dwarf-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Żołnierz</name>
@@ -434,6 +1185,15 @@
         <dwarf-close>99</dwarf-close>
         <halfling-op>99</halfling-op>
         <halfling-close>100</halfling-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
     <class>
         <name>Żołnierz okrętowy</name>
@@ -441,5 +1201,14 @@
         <human-close>100</human-close>
         <dwarf-op>100</dwarf-op>
         <dwarf-close>100</dwarf-close>
+		<skills>
+			<skill></skill>
+		</skills>
+		<abilities>
+			<ability></ability>
+		</abilities>
+		<items>
+			<item></item>
+		</items>
     </class>
 </classes>
